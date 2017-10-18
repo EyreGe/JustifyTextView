@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ad"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp" />
+
+                <TextView
+                    android:text="小米科技有限责任公司"
+                    android:textSize="15sp"
+                    android:textColor="#333"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="统一社会信用代码："
+                        android:textSize="14sp"
+                        android:textColor="#333"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="911101863330026787Q"
+                        android:textSize="14sp"
+                        android:textColor="#666"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#f5f5f5" />
+
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="40dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.justifytextview.JustifyTextView
+                        android:text="法定代表人："
+                        android:textSize="14sp"
+                        android:textColor="#333"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="雷军"
+                        android:textSize="14sp"
+                        android:textColor="#666"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.justifytextview.JustifyTextView
+                        android:text="经营状态："
+                        android:textSize="14sp"
+                        android:textColor="#333"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="续存（在营、开业、在册）"
+                        android:textSize="14sp"
+                        android:textColor="#666"
+                        android:lineSpacingExtra="2dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.justifytextview.JustifyTextView
+                        android:text="公司类型："
+                        android:textSize="14sp"
+                        android:textColor="#333"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="有限责任公司"
+                        android:textSize="14sp"
+                        android:textColor="#666"
+                        android:lineSpacingExtra="2dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.justifytextview.JustifyTextView
+                        android:text="注册资本："
+                        android:textSize="14sp"
+                        android:textColor="#333"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="1800万元人民币"
+                        android:textSize="14sp"
+                        android:textColor="#666"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.justifytextview.JustifyTextView
+                        android:text="成立日期："
+                        android:textSize="14sp"
+                        android:textColor="#333"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="2010年03月03日"
+                        android:textSize="14sp"
+                        android:textColor="#666"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.justifytextview.JustifyTextView
+                        android:text="经营期限至："
+                        android:textSize="14sp"
+                        android:textColor="#333"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="2030年02月02日"
+                        android:textSize="14sp"
+                        android:textColor="#666"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.justifytextview.JustifyTextView
+                        android:text="登记机关："
+                        android:textSize="14sp"
+                        android:textColor="#333"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="海淀分局"
+                        android:textSize="14sp"
+                        android:textColor="#666"
+                        android:lineSpacingExtra="2dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.justifytextview.JustifyTextView
+                        android:text="所属行业："
+                        android:textSize="14sp"
+                        android:textColor="#333"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="科学研究和技术服务"
+                        android:textSize="14sp"
+                        android:textColor="#666"
+                        android:lineSpacingExtra="2dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.justifytextview.JustifyTextView
+                        android:text="登记地址："
+                        android:textSize="14sp"
+                        android:textColor="#333"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="北京市海淀区北京市海淀区北京市海淀区北京市海淀区北京市海淀区"
+                        android:textSize="14sp"
+                        android:textColor="#666"
+                        android:lineSpacingExtra="2dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.justifytextview.JustifyTextView
+                        android:text="经营范围："
+                        android:textSize="14sp"
+                        android:textColor="#333"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="手机技术开发；手机生产、手机服务；从事互联网文化活动；手机技术开发；手机生产、手机服务；从事互联网文化活动；手机技术开发；手机生产、手机服务；从事互联网文化活动；手机技术开发；手机生产、手机服务；从事互联网文化活动；手机技术开发；手机生产、手机服务；从事互联网文化活动；手机技术开发；手机生产、手机服务；从事互联网文化活动；手机技术开发；手机生产、手机服务；从事互联网文化活动；手机技术开发；手机生产、手机服务；从事互联网文化活动；手机技术开发；手机生产、手机服务；从事互联网文化活动；手机技术开发；手机生产、手机服务；从事互联网文化活动；手机技术开发；手机生产、手机服务；从事互联网文化活动；"
+                        android:textSize="14sp"
+                        android:textColor="#666"
+                        android:lineSpacingExtra="2dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
